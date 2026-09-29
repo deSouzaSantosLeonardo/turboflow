@@ -1,0 +1,20 @@
+turbomachinery: radial_turbine
+
+geometry:
+  cascade_type: ["rotor"]
+  blade_inlet_width: [0.016]                 # [m]
+  blade_exit_width: [0.063]                  # [m]
+  blade_axial_length: [0.107]                # [m]
+  splitter_blade_axial_length: [0]           # [m]
+  rotational_speed: [15939]                  # [rpm]
+  throat_opening: [0.01706]                  # [m]
+  inlet_radius: [0.177]                      # [m]
+  exit_mean_radius: [0.0825]                 # [m]
+  trailing_edge_thickness: [0.00076]         # [m]
+  number_of_blades: [13]                     # [-]
+  number_of_splitter_blades: [0]             # [-]
+  disk_housing_clearance_gap: [0.0009]       # [m]
+  blade_casing_inlet_clearance_gap: [0.0004] # [m]
+  blade_casing_exit_clearance_gap: [0.0004]  # [m]
+  inlet_blade_angle: [0]                     # [deg]
+  exit_blade_angle: [-60]                    # [deg]
